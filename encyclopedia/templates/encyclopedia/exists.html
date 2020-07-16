@@ -1,0 +1,12 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    404 Missing
+{% endblock %}
+
+{% block body %}
+    <h3>403 Error: Page already exists</h3>
+
+    <p>It seems you've taken a wrong turn, you can go back <a href="{% url 'index' %}">home</a> here.</p>
+
+{% endblock %}
